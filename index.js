@@ -12,6 +12,10 @@ app.all('*', function (req, res, next) {
     next();
 });
 
+app.get('/', function (req, res) {
+    res.send("Hi, welcome to snow quotes api, a compilation of quotes that I personally find interesting. Please see ____.___ to understand how to access this api.");
+});
+
 app.get('/quotes/:num?', function (req, res) {
     res.send(quoteRepo.getRandom(req.params.num || 1));
 });
