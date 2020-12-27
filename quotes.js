@@ -52,10 +52,7 @@ module.exports = [
         "source": "HPMOR - Book"
     },
     {
-        "quote": "No rescuer hath the rescuer,\
-                No Lord hath the champion,\
-                No mother and no father,\
-                Nothingness above.",
+        "quote": "No rescuer hath the rescuer, No Lord hath the champion, No mother and no father, Nothingness above.",
         "author": "Godric Gryffindor", 
         "source": "HPMOR - Book"
     },
