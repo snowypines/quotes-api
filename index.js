@@ -7,7 +7,6 @@ var port = process.env.PORT || 3001;
 
 app.all('*', function (req, res, next) {
     res.set('Access-Control-Allow-Origin', '*');
-    res.send("Hi, welcome to snow quotes api, a compilation of quotes that I personally find interesting. Please see ____.___ to understand how to access this api.");
 
     next();
 });
